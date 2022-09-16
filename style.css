@@ -1,0 +1,265 @@
+@font-face {
+  font-family:'bhelal';
+  src:url('B Helal.ttf') format('truetype');
+}
+@font-face{
+  font-family:'bkind';
+      src:url('B Kidnap.ttf') format('truetype');
+}
+@font-face{
+  font-family:'bziba';
+  src:url('B Ziba_0.ttf') format('truetype');      
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    position: relative;
+  }
+  
+  button {
+    padding: 18px;
+    color: black;
+    background-color: rgba(3, 41, 6, 0.356);
+    width: 5%;
+    height: 5%;
+    border-radius: 50%;
+  }
+  
+#topSite {
+    width: 100%;
+    position: relative;
+  }
+  
+  #slider {
+    width: 100%;
+    position: relative;
+    height: 450px;
+    margin-bottom: 20px;
+    
+  }
+  
+  #slider img {
+    width: 100%;
+    height: 600px;
+    position: absolute;
+    transition: all 1s;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 100px;
+    margin: 0 60px;
+  }
+  .circle {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom:0px;
+  }
+  .menu{
+    list-style: none;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    top: 0;
+    margin: 20px;
+    align-items: center;
+
+  }
+  .menu li a{
+    margin: 30px;
+    font-family: bhelal;
+    font-size: 24px;
+    transition: all .5s;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+  }
+  .menu li a:hover{
+    margin: 20px;
+    font-family: bhelal;
+    font-size: 24px;
+    width: 15%;
+    color: orange;
+    background: rgba(0, 0, 0, 0.274);
+    text-align: center;
+    border-radius: 30px;
+    padding:10px 30px;
+    border: 1px solid rgb(255, 166, 0);
+  }
+h1{
+  position: absolute; 
+  top:150px;
+  right: 300px;
+  font-size: 77px;
+  text-align: center;
+  font-weight: bold;
+  font-family: bziba;
+  background: rgba(0, 0, 0, 0.082);
+  border-radius: 30px;
+  color: orange;
+  border:1px solid white;
+  padding: 5px;
+}
+h1 span{
+  color: black;
+}
+.stick{
+  width: 5%;
+  padding: 10px 5px;
+  border-radius: 50%;
+  background: rgba(0, 0, 0, 0.767);
+  color: rgb(255, 68, 0);
+  text-align: center;
+  position: sticky;
+  right: 20px;
+  top: 580px;
+}
+#mainSite{
+  width: 100%;
+}
+.container{
+  padding: 10px;
+}
+.row{
+  margin: 10px auto;
+  border-radius: 10px;
+  background: linear-gradient(120deg,#65EDFE,#016158);
+  text-align: center;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: auto;
+  height: 400px;
+  padding: 30px;
+/* justify-content: space-around; */
+align-items: center;
+box-shadow: -5px 5px 10px #016158;
+}
+.B{
+  background: linear-gradient(120deg,#F9849E,#E13242);
+  margin-top: 50px;
+box-shadow: -5px 5px 10px #F9849E;
+}
+.row div{
+  height: 300px;
+  margin: 10px;
+  border-radius: 5px;
+  background: white;
+}
+.picCard{
+  width: 100%;
+  height: 60%;
+  background-size:cover;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 441px){
+  h1{
+    left: 40px;
+    right: 40px;
+    font-size: 40px;
+  }
+
+  .menu li a{
+    margin: 5px;
+    font-size: 15px;
+  }
+  .menu li a:hover{
+    margin: 5px;
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 442px){
+
+  h1{
+    right: 90px;
+    left: 90px;
+    font-size: 55px;
+  }
+  .menu li a{
+    margin: 5px;
+    font-size: 20px;
+  }
+  .menu li a:hover{
+    margin: 25px;
+ 
+  }
+}
+
+
+
+@media only screen and (min-width: 768px){
+  h1{
+    right:130px;
+    left: 130px;
+    font-size: 56px;
+  }
+  .menu li a{
+    margin: 15px;
+    font-size: 23px;
+  }
+  .menu li a:hover{
+    margin: 25px;
+    font-size: 24px;
+  }
+}
+
+
+
+@media only screen and (min-width: 980px){
+
+  h1{
+    right:230px;
+    left: 230px;
+    font-size: 86px;
+  }
+  .menu li a{
+    margin: 20px;
+    font-size: 24px;
+  }
+  .menu li a:hover{
+    margin: 25px;
+    font-size: 24px;
+  }
+}
