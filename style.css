@@ -160,6 +160,54 @@ h1 span{
 h2{
   text-align: center;
 }
+.C{
+  /* flex-wrap: wrap; */
+  background: #fff ;
+  box-shadow: -5px 5px 10px #fff;
+  padding: 0;
+  height: 500px;
+}
+#members{
+  background: linear-gradient(120deg , #FFDF8C , #CC9900);
+  border-radius: 50px 0px 50px 0px;
+  box-shadow: 5px -5px 10px #CC9900;
+  height: 100%;
+}
+#connection{
+  background: linear-gradient(120deg , #E7F0FD , #6ba9EF);
+  border-radius: 0px 50px 0px 50px;
+  box-shadow: -5px -5px 10px #6ba9EF;
+  height: 100%;
+}
+
+.foot{
+  width: 100%;
+  background: rgb(2, 2, 65);
+  height: 250px;
+  overflow: hidden;
+  padding: 20px;
+}
+.footIn{
+  width: 70%;
+  height: 250%;
+  border: .1px solid blue;
+  border-radius: 50%;
+  background: rgba(135,135,145,0.5);
+  margin: auto;
+  text-align: center;
+  color: #fff;
+  font-family: bnazanin;
+  padding: 20px;
+}
+i{margin-right: 20px;}
+
+
+
+
+
+
+
+
 
 
 
@@ -182,6 +230,9 @@ h2{
 
 
 @media only screen and (max-width: 441px){
+  .C{
+    flex-wrap: wrap;
+  }
   button {
     width: 25%;
   }
@@ -202,18 +253,22 @@ h2{
     margin: 5px;
     font-size: 10px;
   }
+  .footIn{
+    overflow: auto;
+    padding: 40px;
+  }
 }
 
 @media only screen and (min-width: 442px){
-
+  .C{
+    flex-wrap: wrap;
+  }
   h1{
     right: 90px;
     left: 90px;
     font-size: 55px;
   }
- .sticki{
-  top: 1000px;
-  }
+
   .menu li a{
     margin: 5px;
     font-size: 20px;
